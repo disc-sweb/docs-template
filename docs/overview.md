@@ -16,14 +16,12 @@ Our target audience is people who are interested in childbirth and doula educati
 
 ## Key Features of the Redesign 
 
-Need to finish highlighting features and explaining their purposes.
-
 | Feature             | Why it matters                                                                       |
 | ------------------- | ------------------------------------------------------------------------------------ |
-| Home page           | Streamlines user-friendly practices for a professional first impression to users.    |
-| Courses page        | Allows users on the admin side to implement online courses for accessible resources. |
-| insert here  | insert here.       |
-| insert here | insert here. |
+| Home page           | Utilizes user-friendly practices for a professional first impression to users.       |
+| Admin login         | Allows admins add or edit attributes of online courses.                              |
+| User login          | Allows users to watch courses they already own and pay for new courses.              |
+| Courses page        | Allows users to see previews of courses they are interested in, as well as provide a brief description of the course content. |
 
 ## Tech Stack 
 
