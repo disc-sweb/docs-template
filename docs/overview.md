@@ -41,11 +41,3 @@ Our target audience is people who are interested in childbirth and doula educati
 | Node.js, Express    | Server-side logic.             |
 | PostgreSQL          | Used via Supabase for database.|
 | ESLint, Prettier    | Consistent code formatting.               |
-
-## Folder Anatomy
-
-awesome-project/
-├─ docs/ → Documentation (this folder)
-├─ src/pages/ → Static pages (landing, blog, etc.)
-├─ docusaurus.config.js
-└─ sidebars.js
