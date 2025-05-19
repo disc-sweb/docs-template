@@ -5,20 +5,20 @@ import type * as Preset from "@docusaurus/preset-classic";
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: "Discover Program Documentation Template",
+  title: "Sokana Collective Website Revamp Documentation Template",
   tagline: "A template for creating documentation for your project",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: "https://disc-template.github.io/",
+  url: "https://discsweb-docs.github.io/",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/docs-template/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "disc-template", // Usually your GitHub org/user name.
-  projectName: "disc-documentation-template/", // Usually your repo name.
+  organizationName: "disc-sweb", // Usually your GitHub org/user name.
+  projectName: "docs-template/", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -42,7 +42,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+            "https://github.com/DISC-NU/docs-template/edit/main/",
         },
         theme: {
           customCss: "./src/css/custom.css",
