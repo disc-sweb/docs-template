@@ -6,11 +6,11 @@ import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
   title: "Sokana Collective Website Revamp Documentation Template",
-  tagline: "A template for creating documentation for your project",
+  tagline: "A redesign of the Sokana Collective webpage",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: "https://discsweb-docs.github.io/",
+  url: "https://discsweb-docs.github.io",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/docs-template/",
@@ -18,7 +18,7 @@ const config: Config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "disc-sweb", // Usually your GitHub org/user name.
-  projectName: "docs-template/", // Usually your repo name.
+  projectName: "docs-template", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -39,10 +39,8 @@ const config: Config = {
           id: "docs",
           sidebarPath: require.resolve("./sidebars.documentation.ts"),
           routeBasePath: "/",
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/DISC-NU/docs-template/edit/main/",
+            "https://github.com/disc-sweb/docs-template/edit/main/docs/",
         },
         theme: {
           customCss: "./src/css/custom.css",
