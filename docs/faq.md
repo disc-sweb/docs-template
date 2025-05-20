@@ -6,48 +6,59 @@ sidebar_position: 4
 
 # Frequently Asked Questions
 
-### “Why Docusaurus instead of Next.js or Astro?”
+### “What is Sokana Collective?”
 
-Docusaurus ships opinionated docs features (versioning, search, sidebar, i18n) out of the box—no plugins or custom builds needed.
-
----
-
-### “Can I write plain React pages too?”
-
-Absolutely. Drop JSX/TSX files in `src/pages/` and they become routed pages alongside your Markdown docs.
+Sokana Collective is a Doula Agency committed to supporting individuals through all stages of their fertility journey. We offer training and resources to empower both new and experienced doulas.
 
 ---
 
-### “How do I add Google Analytics?”
+### “What’s the purpose of the redesign?”
 
-Add your GA4 measurement ID to `docusaurus.config.js`:
-
-```js
-export default {
-  // …
-  themeConfig: {
-    // …
-    gtag: { trackingID: 'G‑XXXXXXXXXX' },
-  },
-};
-
-
-
-⸻
-
-“Does it support dark mode?”
-
-Yes—dark mode is enabled by default. The toggle appears in the navbar and respects the user’s OS preference.
-
-⸻
-
-“Where can I get help?”
-	•	GitHub Issues: https://github.com/facebook/docusaurus/issues
-	•	Discord: #docusaurus channel in the Reactiflux server
-	•	Stack Overflow: Tag questions with docusaurus
+The redesign improves usability while keeping the existing branding intact. It introduces a new **online training academy** so doulas can access and manage their educational content more easily.
 
 ---
 
-**Next step (optional):**
-If you’d like a **minimal working site repo** to pair with these docs, just let me know and I can scaffold the project structure (folders, config, sample landing page) for you.
-```
+### “What is the Courses page?”
+
+The Courses page is a new feature that allows users to:
+- Browse all available training courses
+- Preview course content before purchasing
+- Purchase and access owned courses
+
+---
+
+### “Can admins manage course content?”
+
+Yes. Admins can:
+- Log in via a secure portal
+- Add, edit, or delete course details
+- Manage user access and course availability
+
+---
+
+### “How do users access the courses they’ve purchased?”
+
+Once logged in, users are taken to a dashboard that shows their owned courses. They can click to begin watching or continue where they left off.
+
+---
+
+### “What tech stack was used?”
+
+- **Frontend**: React, React Router v7, styled-components
+- **Backend**: Node.js, Express, Supabase (for auth and database)
+- **Database**: PostgreSQL
+- **Tooling**: ESLint, Prettier for code consistency
+
+---
+
+### “Who is the target audience?”
+
+- People interested in doula training
+- Practicing doulas looking to expand their knowledge
+- Admins who manage course offerings and platform content
+
+---
+
+### “Where can I get support?”
+
+You can reach out to the Sokana team directly or open an issue on the project’s GitHub repository (if publicly available).
