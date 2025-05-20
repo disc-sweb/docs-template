@@ -6,15 +6,25 @@ sidebar_position: 2
 
 # System at a glance
 
-Below is the 10 000‑foot view of how **AwesomeProject** fits together.
+Below is the tech stack **AwesomeProject** fits together.
 
-| Layer            | Main tech         | Responsibility                    |
-| ---------------- | ----------------- | --------------------------------- |
-| UI               | React 18 + MDX    | Renders docs & pages              |
-| Static generator | Docusaurus 2      | Converts MD/MDX to static HTML    |
-| Styling          | Tailwind CSS      | Utility‑first styling & dark mode |
-| Search           | Algolia DocSearch | Client‑side full‑text search      |
-| Hosting          | Netlify / Vercel  | CDN‑backed static hosting         |
+
+### Frontend
+
+| Framework           | Purpose                        |
+| ------------------- | -------------------------------|
+| React               | UI components.                 |
+| React Router v7     | Navigation across pages.       |
+| styled-components   | Styling components.            |
+| Supabase            | Authentication.                |
+
+### Backend
+
+| Framework           | Purpose                        |
+| ------------------- | -------------------------------|
+| Node.js, Express    | Server-side logic.             |
+| PostgreSQL          | Used via Supabase for database.|
+| ESLint, Prettier    | Consistent code formatting.    |
 
 ## Key directories
 
