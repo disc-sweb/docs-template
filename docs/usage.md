@@ -6,6 +6,8 @@ sidebar_position: 4
 
 # Usage guide
 
+Guidance on navigating the new website, including key features.
+
 ## Development workflow
 
 ### Start the live‑reload server

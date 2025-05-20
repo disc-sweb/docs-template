@@ -11,31 +11,28 @@ sidebar_position: 3
 | Tool              | Minimum version | Check command            |
 | ----------------- | --------------- | ------------------------ |
 | Node.js           | **18.0**        | `node -v`                |
-| npm / pnpm / yarn | latest LTS      | `npm -v` / `pnpm -v` / … |
+| npm               | latest LTS      | `npm -v`                 |
 | Git               | any modern      | `git --version`          |
 
 > **Tip:** Windows users—run commands in **PowerShell** or **WSL** for best results.
 
-## 1. Clone the repo
-
 ```bash
-git clone https://github.com/your‑org/awesome-project.git
-cd awesome-project
+1. Clone the frontend and backend repositories.
 
-2. Install dependencies
+git clone https://github.com/disc-sweb/frontend.git
+
+git clone https://github.com/disc-sweb/backend.git
+
+2. Install dependencies.
 
 Using npm:
 
 npm install
 
-Or pnpm / yarn if you prefer:
-
-pnpm install   # or: yarn
-
-3. Verify the setup
+3. Verify the setup and run both frontend & backend repositories.
 
 npm run start
 
 Open http://localhost:3000.
-You should see the default AwesomeProject homepage and these docs in the sidebar.
+
 ```

@@ -4,31 +4,44 @@ title: Documentation Overview
 sidebar_position: 2
 ---
 
-# What is **AwesomeProject**?
+# Project Overview 
 
-**AwesomeProject** is a lightweight starter kit for building blazing‑fast, content‑driven sites with **React + Docusaurus 2**.
-It ships with sensible defaults so you can focus on content—not configuration.
+## Project Vision and Goals 
+Sokana Collective is a Doula Agency that aids with training doulas to support people with all aspects of their fertility journey.
 
-## Key features
+The purpose of this redesign is to maintain the current design as much as possible while integrating user-friendly practices. This involves developing an online training academy for Sokana’s Doulas. The Sokana Collective Training Academy will serve to make doula training for existing and aspiring doulas more accessible. 
 
-| Feature             | Why it matters                                |
-| ------------------- | --------------------------------------------- |
-| **Instant MDX**     | Write pages in Markdown + JSX for full power. |
-| **Dark‑mode ready** | Automatic light / dark theme toggle.          |
-| **Algolia search**  | Zero‑config DocSearch integration.            |
-| **Versioned docs**  | Keep multiple doc versions live side by side. |
+The feature we focused on adding to the website was a new courses page. Users can log in and view the courses they own, as well as browse and purchase new courses. A short preview of each course is given before being prompted to pay to further watch the course. 
 
-## Tech stack
+## Target Audience 
+Our target audience is people who are interested in childbirth and doula education. Info should be easily searchable for the target audience, allowing doula training for existing and aspiring doulas to be accessible. 
 
-- **React 18** &mdash; UI layer
-- **MDX 2** &mdash; Markdown + React components
-- **TypeScript** (optional but recommended)
-- **Tailwind CSS** (pre‑wired) for rapid styling
+Other users include admins who may want to edit page features and add or modify courses in the training academy. 
 
-## Folder anatomy
+## Key Features of the Redesign 
 
-awesome-project/
-├─ docs/ → Documentation (this folder)
-├─ src/pages/ → Static pages (landing, blog, etc.)
-├─ docusaurus.config.js
-└─ sidebars.js
+| Feature             | Why it matters                                                                       |
+| ------------------- | ------------------------------------------------------------------------------------ |
+| Home page           | Utilizes user-friendly practices for a professional first impression to users.       |
+| Admin login         | Allows admins add or edit attributes of online courses.                              |
+| User login          | Allows users to watch courses they already own and pay for new courses.              |
+| Courses page        | Allows users to see previews of courses they are interested in, as well as provide a brief description of the course content. |
+
+## Tech Stack 
+
+### Frontend
+
+| Framework           | Purpose                        |
+| ------------------- | -------------------------------|
+| React               | UI components.                 |
+| React Router v7     | Navigation across pages.       |
+| styled-components   | Styling components.            |
+| Supabase            | Authentication.                |
+
+### Backend
+
+| Framework           | Purpose                        |
+| ------------------- | -------------------------------|
+| Node.js, Express    | Server-side logic.             |
+| PostgreSQL          | Used via Supabase for database.|
+| ESLint, Prettier    | Consistent code formatting.    |
