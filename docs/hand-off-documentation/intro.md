@@ -4,22 +4,24 @@ title: Handoff Documentation
 sidebar_position: 1
 ---
 
-# Welcome to the Handoff Docs 👋
+# Welcome to the Handoff Documentation 👋
 
-These pages are a **quick‑start guide for new maintainers** taking over _AwesomeProject_.
-They capture the why, how, and what‑next so knowledge never walks out the door.
+These pages are a **concise guide for new maintainers** taking over the _Sokana Collective Website Redesign_ project.
+They capture the project context, technical details, and next steps are documented such that knowledge of the project stays within the team.
 
 ## Who should read this?
 
-- **Incoming owners** inheriting the codebase
-- **Rotation engineers** covering support shifts
-- **External contributors** getting write access
+- **New maintainers** inheriting the redesigned website codebase  
+- **Support engineers** rotating in for bug fixes or updates  
+- **External contributors** joining the project for feature enhancements
 
 ## What’s inside?
 
-1.  High‑level system picture and terminology
-2.  Deployment & release playbook
-3.  Checklist of open tasks and stretch goals
-4.  Credits and acknowledgements
+1. Overview of the website architecture and design decisions  
+2. Next steps and possible improvements  
+3. Credits and acknowledgements for contributors
 
-👉 Start with **Overview** for architecture, then **Next Steps** to get the app running locally.
+
+
+
+👉 Start with **Overview** for architecture of the project, then **Next Steps** to get the app running locally.
