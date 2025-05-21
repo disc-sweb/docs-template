@@ -40,7 +40,7 @@ const config: Config = {
           sidebarPath: require.resolve("./sidebars.documentation.ts"),
           routeBasePath: "/",
           editUrl:
-            "https://github.com/disc-sweb/docs-template/edit/main/docs/",
+            "https://github.com/disc-sweb/docs-template/edit/main/",
         },
         theme: {
           customCss: "./src/css/custom.css",
