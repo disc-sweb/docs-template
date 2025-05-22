@@ -49,7 +49,7 @@ uploads/ → Used for storing uploaded files, such as images or documents, that 
 .vscode/ → Includes settings specific to Visual Studio Code, which can help maintain consistent development environments.
 ```
 
-## Decision log (abridged)
+## Decision log
 
 | Choice                             | Rationale                                                             |
 | ---------------------------------- | --------------------------------------------------------------------- |

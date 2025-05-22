@@ -6,8 +6,7 @@ sidebar_position: 5
 
 # Acknowledgements
 
-We reuse content & ideas from:
+This documentation and the redesign project were made possible with the help, inspiration, and resources from several communities and individuals. We gratefully acknowledge:
 
-- “Diátaxis Documentation Framework” by Daniele Procida
-- “Write the Docs” community best practices
-- _The Mythical Man‑Month_ by Fred Brooks (Chap. 15, “The Other Face”)
+- Sokana Collective — for their trust, collaboration, and commitment to equitable childbirth education.
+- DISC: Develop and Innovate for Social Change — for mentorship, project support, and the opportunity to build socially impactful technology.
