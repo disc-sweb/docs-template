@@ -44,8 +44,8 @@ Once logged in, users are taken to a dashboard that shows their owned courses. T
 
 ### “What tech stack was used?”
 
-- **Frontend**: React, React Router v7, styled-components
-- **Backend**: Node.js, Express, Supabase (for auth and database)
+- **Frontend**: React, React Router v7, styled-components, Vercel
+- **Backend**: Node.js, Express, Supabase (for auth and database), Render
 - **Database**: PostgreSQL
 - **Tooling**: ESLint, Prettier for code consistency
 

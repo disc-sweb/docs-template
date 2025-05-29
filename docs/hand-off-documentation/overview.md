@@ -10,20 +10,22 @@ Below are the frontend and backend tech stacks of the **Sokana Collective Websit
 
 ### Frontend
 
-| Framework           | Purpose                        |
-| ------------------- | -------------------------------|
-| React               | UI components.                 |
-| React Router v7     | Navigation across pages.       |
-| styled-components   | Styling components.            |
-| Supabase            | Authentication.                |
+| Framework           | Purpose                            |
+| ------------------- | ---------------------------------- |
+| React               | UI components.                     |
+| React Router v7     | Navigation across pages.           |
+| styled-components   | Styling components.                |
+| Supabase            | Authentication.                    |
+| Vercel              | Hosting platform for the frontend. |
 
 ### Backend
 
-| Framework           | Purpose                        |
-| ------------------- | -------------------------------|
-| Node.js, Express    | Server-side logic.             |
-| PostgreSQL          | Used via Supabase for database.|
-| ESLint, Prettier    | Consistent code formatting.    |
+| Framework           | Purpose                           |
+| ------------------- | --------------------------------- |
+| Node.js, Express    | Server-side logic.                |
+| PostgreSQL          | Used via Supabase for database.   |
+| ESLint, Prettier    | Consistent code formatting.       |
+| Render              | Hosting platform for the backend. |
 
 ## Key directories
 
@@ -49,6 +51,16 @@ uploads/ → Used for storing uploaded files, such as images or documents, that 
 .vscode/ → Includes settings specific to Visual Studio Code, which can help maintain consistent development environments.
 ```
 
+## Deployment Architecture
+
+The project uses a split deployment:
+
+- The **frontend** is hosted on **Vercel**, enabling continuous deployment from the `main` branch with fast, globally-distributed delivery.
+- The **backend** runs on **Render**, which handles dynamic requests and API logic.
+
+Client requests flow as follows:
+- Browser → [Vercel Frontend] → API calls → [Render Backend]
+
 ## Decision log
 
 | Choice                             | Rationale                                                             |
@@ -58,4 +70,5 @@ uploads/ → Used for storing uploaded files, such as images or documents, that 
 | Backend built with **Express.js**  | Lightweight, flexible Node.js framework                               |
 | Chose **Supabase** for backend     | Open-source Firebase alternative; built-in auth and Postgres database |
 | Adopted **Docusaurus** for docs    | Built-in docs support, versioning, and quick setup                    |
-
+| Deployed frontend on **Vercel**    | Zero-config, git-connected deployments for frontend projects          |
+| Deployed backend on **Render**     | Simple setup for Node.js apps, with automatic HTTPS and deploy hooks  |

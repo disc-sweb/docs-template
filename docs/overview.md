@@ -31,17 +31,19 @@ Other users include admins who may want to edit page features and add or modify 
 
 ### Frontend
 
-| Framework           | Purpose                        |
-| ------------------- | -------------------------------|
-| React               | UI components.                 |
-| React Router v7     | Navigation across pages.       |
-| styled-components   | Styling components.            |
-| Supabase            | Authentication.                |
+| Framework           | Purpose                         |
+| ------------------- | ------------------------------- |
+| React               | UI components.                  |
+| React Router v7     | Navigation across pages.        |
+| styled-components   | Styling components.             |
+| Supabase            | Authentication.                 |
+| Vercel              | Deployment of the frontend app. |
 
 ### Backend
 
-| Framework           | Purpose                        |
-| ------------------- | -------------------------------|
-| Node.js, Express    | Server-side logic.             |
-| PostgreSQL          | Used via Supabase for database.|
-| ESLint, Prettier    | Consistent code formatting.    |
+| Framework           | Purpose                         |
+| ------------------- | --------------------------------|
+| Node.js, Express    | Server-side logic.              |
+| PostgreSQL          | Used via Supabase for database. |
+| ESLint, Prettier    | Consistent code formatting.     |
+| Render              | Hosting for backend services.   |
