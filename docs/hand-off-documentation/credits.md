@@ -9,7 +9,7 @@ sidebar_position: 4
 | Role                                | Name              | Contact                   |
 | ----------------------------------- | ----------------- | ------------------------- |
 | Project Manager, Fullstack Engineer | Haresh Wedanayake | `@HareshWed` on GitHub    |
-| Fullstack Engineer                  | Paula Fregene     | `PaulaFregene` on GitHub  |
+| Fullstack Engineer                  | Paula Fregene     | `@PaulaFregene` on GitHub  |
 | UI / Design Lead                    | Evangeline Gong   | `@evangeline-g` on GitHub |
 | Fullstack Engineer                  | Portia Li         | `@portiali` on GitHub     |
 | Frontend Engineer, Docs Maintainer  | Chisa Yan         | `@ysilksa` on GitHub      |
